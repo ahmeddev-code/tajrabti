@@ -1,0 +1,161 @@
+﻿<html>
+<head>
+  <title>تجريبي - كل تجارب السنوات الابتدائية والمناظرات</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Cairo', sans-serif;
+      background-color: #9cd7d8;
+      direction: rtl;
+    }
+    header {
+      background-color: #9cd7d8;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+      font-size: 1.8rem;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #caf0f8;
+      padding: 1rem;
+      gap: 0.8rem;
+      flex-wrap: wrap;
+    }
+    nav button {
+      background-color: white;
+      color: #0077b6;
+      border: 2px solid #0077b6;
+      border-radius: 12px;
+      padding: 0.5rem 1.2rem;
+      font-weight: bold;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    nav button:hover {
+      background-color: #0077b6;
+      color: white;
+    }
+    nav button:focus {
+      outline: none;
+      box-shadow: 0 0 6px #0077b6;
+    }
+    .content {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section {
+      background: white;
+      margin-bottom: 2rem;
+      padding: 1rem;
+      border-radius: 16px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .section h2 {
+      color: #023e8a;
+    }
+    .section h3 {
+      color: #0077b6;
+      margin-top: 1rem;
+    }
+    .section p {
+      line-height: 1.8;
+      font-size: 1.1rem;
+    }
+    footer {
+      background-color: #023e8a;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    .download-link {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background-color: #0077b6;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>
+     تجريبي - كل تجارب السنوات 
+     الابتدائية والمناظرات في تونس
+  </h1>
+  <nav>
+    <button onclick="scrollToSection('year1')">السنة الأولى</button>
+    <button onclick="scrollToSection('year2')">السنة الثانية</button>
+    <button onclick="scrollToSection('year3')">السنة الثالثة</button>
+    <button onclick="scrollToSection('year4')">السنة الرابعة</button>
+    <button onclick="scrollToSection('year5')">السنة الخامسة</button>
+    <button onclick="scrollToSection('year6')">السنة السادسة</button>
+    <button onclick="scrollToSection('exams')"> المناظرات</button>
+  </nav>
+  <div class="content">
+    <section id="year1" class="section">
+      <h2>السنة الأولى</h2>
+      <p>في هذه التجربة، سنكتشف الحواس الخمسة التي نستعملها يوميًا لفهم العالم من حولنا...</p>
+    </section>
+    <section id="year2" class="section">
+      <h2>السنة الثانية</h2>
+      <p>هل كل شيء يذوب في الماء؟ في هذه التجربة، نكتشف مع بعض...</p>
+    </section>
+    <section id="year3" class="section">
+      <h2>السنة الثالثة</h2>
+      <p>نبدأ باكتشاف عالم المغناطيس! خذ مغناطيس وعدّة أشياء صغيرة...</p>
+    </section>
+    <section id="year4" class="section">
+      <h2>السنة الرابعة</h2>
+      <p>لما تطلع الشمس، هل لاحظت إن الظل يتحرّك؟ نعمل تجربة بسيطة...</p>
+    </section>
+    <section id="year5" class="section">
+      <h2>السنة الخامسة</h2>
+      <p>في الطبيعة، كل كائن حي عندو دور في دورة الحياة...</p>
+    </section>
+    <section id="year6" class="section">
+      <h2>السنة السادسة</h2>
+      <p>هل تحب تصنع نور يشتعل بيدك؟ جرب هذا! خذ بطارية، سلكين، ولمبة صغيرة...</p>
+    </section>
+    <section id="exams" class="section">
+      <h2> قسم المناظرات</h2>
+      <article>
+        <h3>مناظرة السنة 6 ابتدائي - موضوع الرياضيات</h3>
+        <p>
+          في هذه المناظرة، يتناول التلميذ مسائل حسابية متنوعة، منها العمليات الحسابية الأساسية، مسائل النسبة والتناسب، الهندسة البسيطة، وغيرها.
+          <br />
+          <strong>حل مبسط:</strong>  
+          نبدأ بحل المسائل خطوة بخطوة مع شرح مبسّط لكل عملية حسابية ونستخدم رسوم توضيحية لتسهيل الفهم.
+        </p>
+        <a href="#" class="download-link" download>تحميل موضوع المناظرة (PDF)</a>
+        <a href="#" class="download-link" download>تحميل الحلول (PDF)</a>
+      </article>
+      <article>
+        <h3>مناظرة السنة 9 إعدادي - موضوع العلوم الفيزيائية</h3>
+        <p>
+          تتناول المناظرة مسائل حول الكهرباء، القوى، الطاقات المختلفة، وتجارب عملية بسيطة.
+          <br />
+          <strong>حل مبسط:</strong>
+          نشرح قوانين الكهرباء الأساسية، نحلل المسائل ونقدم خطوات التجربة العملية مع توضيحات علمية.
+        </p>
+        <a href="#" class="download-link" download>تحميل موضوع المناظرة (PDF)</a>
+        <a href="#" class="download-link" download>تحميل الحلول (PDF)</a>
+      </article>
+    </section>
+  </div>
+  <script>
+    function scrollToSection(id) {
+      document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
+
